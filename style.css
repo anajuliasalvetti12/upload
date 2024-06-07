@@ -1,0 +1,70 @@
+/* Define estilos para todos os elementos */
+* {
+    padding: 0; /* Remove qualquer preenchimento padrão */
+    margin: 0; /* Remove qualquer margem padrão */
+    box-sizing: border-box; /* Inclui padding e bordas no cálculo da largura e altura dos elementos */
+    font-family: "Poppins", sans-serif; /* Define a fonte "Poppins" para todos os elementos */
+  }
+  
+  /* Define estilos para o corpo da página */
+  body {
+    background-color: #025bee; /* Define a cor de fundo do corpo da página como azul */
+  }
+  
+  /* Define estilos para elementos com a classe "container" */
+  .container {
+    background-color: #ffffff; /* Define a cor de fundo como branco */
+    width: 90%; /* Define a largura como 90% da largura do elemento pai */
+    max-width: 34.37em; /* Define a largura máxima como 34.37em */
+    position: relative; /* Define a posição relativa para o elemento */
+    margin: 3.12em auto; /* Define a margem superior e inferior como 3.12em e centraliza o elemento horizontalmente */
+    padding: 3.12em 1.25em; /* Define o preenchimento superior e inferior como 3.12em e o preenchimento lateral como 1.25em */
+    border-radius: 0.43em; /* Define bordas arredondadas com raio de 0.43em */
+    box-shadow: 0 1.25em 2.18em rgb(1, 28, 71, 0.3); /* Define uma sombra para o elemento */
+  }
+  
+  /* Oculta os elementos input do tipo "file" */
+  input[type="file"] {
+    display: none; /* Oculta esses elementos da visualização */
+  }
+  
+  /* Define estilos para elementos <label> */
+  label {
+    display: block; /* Exibe o elemento como um bloco */
+    position: relative; /* Define a posição relativa para o elemento */
+    background-color: #025bee; /* Define a cor de fundo como azul */
+    color: #ffffff; /* Define a cor do texto como branco */
+    font-size: 1.12em; /* Define o tamanho da fonte como 1.12em */
+    font-weight: 500; /* Define o peso da fonte como 500 (semi-negrito) */
+    text-align: center; /* Centraliza o texto dentro do elemento */
+    width: 18.75em; /* Define a largura como 18.75em */
+    padding: 1.12em 0; /* Define o preenchimento superior e inferior como 1.12em e nenhum preenchimento lateral */
+    margin: auto; /* Centraliza o elemento horizontalmente */
+    border-radius: 0.31em; /* Define bordas arredondadas com raio de 0.31em */
+    cursor: pointer; /* Altera o cursor para um ponteiro ao passar sobre o elemento (indica que é clicável) */
+  }
+  
+  /* Define estilos para o elemento com o ID "num-de-arquivos" */
+  #num-de-arquivos {
+    font-weight: 400; /* Define o peso da fonte como 400 (normal) */
+    text-align: center; /* Centraliza o texto dentro do elemento */
+    margin: 1.25em 0 1.87em 0; /* Define a margem superior como 1.25em, a margem inferior como 1.87em e nenhuma margem lateral */
+  }
+  
+  /* Remove as marcas padrão de lista dos elementos <ul> */
+  ul {
+    list-style-type: none; /* Remove as marcas padrão de lista */
+  }
+  
+  /* Define estilos para elementos <li> dentro de um elemento com a classe "container" */
+  .container li {
+    font-weight: 500; /* Define o peso da fonte como 500 (semi-negrito) */
+    background-color: #eff5ff; /* Define a cor de fundo como um tom claro de azul */
+    color: #025bee; /* Define a cor do texto como azul */
+    margin-bottom: 1em; /* Define a margem inferior como 1em */
+    padding: 1.1em 1em; /* Define o preenchimento superior e inferior como 1.1em e o preenchimento lateral como 1em */
+    border-radius: 0.3em; /* Define bordas arredondadas com raio de 0.3em */
+    display: flex; /* Exibe o elemento como um container flexível */
+    justify-content: space-between; /* Distribui o espaço entre os elementos filhos de forma que haja espaço igual entre eles */
+  }
+  

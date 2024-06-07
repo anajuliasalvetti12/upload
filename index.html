@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- Metatag para tornar a página responsiva -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Título da página -->
+    <title>Botão Personalizado para Envio de Arquivos</title>
+    <!-- Ícones Font Awesome - Biblioteca de ícones -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
+    <!-- Fontes do Google - Fonte utilizada na página -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Folha de Estilos - Arquivo CSS personalizado -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Container principal -->
+    <div class="container">
+      <!-- Input para seleção de arquivos -->
+      <input type="file" id="seletor-arquivos" multiple />
+      <!-- Label para o input de seleção de arquivos -->
+      <label for="seletor-arquivos">
+        <!-- Ícone para indicar o upload de arquivos -->
+        <i class="fa-solid fa-arrow-up-from-bracket"></i>
+        <!-- Texto ao lado do ícone -->
+        &nbsp; Escolher Arquivos para Enviar
+      </label>
+      <!-- Div para exibir o número de arquivos selecionados -->
+      <div id="num-de-arquivos">Nenhum arquivo selecionado</div>
+      <!-- Lista de arquivos selecionados -->
+      <ul id="lista-de-arquivos"></ul>
+    </div>
+    <!-- Script - Arquivo JavaScript -->
+    <script src="main.js"></script>
+  </body>
+</html>
